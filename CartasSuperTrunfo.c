@@ -7,7 +7,7 @@ int main(){
      char Estado[20] = "Bahia";
      char Código[20] = "A01";
      char Nomedacidade[20] = "salvador";
-     int População = 14850512;
+     int População = 14850511;
      float Área = 567.295;
      float PIB = 352.618;
      int Pontosturisticos =13;
