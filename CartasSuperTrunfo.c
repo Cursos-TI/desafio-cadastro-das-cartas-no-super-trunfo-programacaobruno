@@ -7,37 +7,38 @@ int main(){
      char Estado[20] = "Bahia";
      char Código[20] = "A01";
      char Nomedacidade[20] = "salvador";
-     int População = 14850513;
+     int População = 14850512;
      float Área = 567.295;
      float PIB = 352.618;
      int Pontosturisticos =13;
 
-     printf("Estado: ");
+     printf("Estado:\n ");
      scanf("%s", Estado);
 
-     printf("Código: ");
+     printf("Código:\n ");
      scanf("%s", Código);
 
-     printf("Nome da cidade: ");
+     printf("Nome da cidade:\n ");
      scanf("%s", Nomedacidade);
 
-     printf("População: ");
+     printf("População:\n ");
      scanf("%d", &População);
 
-     printf("Area total: ");
+     printf("Area total:\n ");
      scanf("%f", &Área);
 
-     printf("PIB: ");
+     printf("PIB:\n ");
      scanf("%f", &PIB);
 
-     printf("Numeros de pontos turisticos: ");
+     printf("Numeros de pontos turisticos:\n ");
      scanf("%d", &Pontosturisticos);
 
      printf("Estado: %s - Código da carta: %s\n", Estado, Código);
      printf("Nome da cidade: %s - População: %d\n", Nomedacidade, População);
      printf("Area total: %.3f - PIB: %.3f\n", Área, PIB);
-     printf("Numeros de pontos turisticos: %d", Pontosturisticos);
+     printf("Numeros de pontos turisticos: %d\n", Pontosturisticos);
 
+     
      
      
      
