@@ -1,22 +1,44 @@
 #include <stdio.h>
+int main(){
+     printf(" Desafio cartas super trunfo!\n ");
+     printf("Carta 01\n" );
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+     char Estado[20] = "Bahia";
+     char Código[20] = "A01";
+     char Nomedacidade[20] = "salvador";
+     int População = 14850513;
+     float Área = 567.295;
+     float PIB = 352.618;
+     int Pontosturisticos =13;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+     printf("Estado: ");
+     scanf("%s", Estado);
 
-    return 0;
+     printf("Código: ");
+     scanf("%s", Código);
+
+     printf("Nome da cidade: ");
+     scanf("%s", Nomedacidade);
+
+     printf("População: ");
+     scanf("%d", &População);
+
+     printf("Area total: ");
+     scanf("%f", &Área);
+
+     printf("PIB: ");
+     scanf("%f", &PIB);
+
+     printf("Numeros de pontos turisticos: ");
+     scanf("%d", &Pontosturisticos);
+
+     printf("Estado: %s - Código da carta: %s\n", Estado, Código);
+     printf("Nome da cidade: %s - População: %d\n", Nomedacidade, População);
+     printf("Area total: %.3f - PIB: %.3f\n", Área, PIB);
+     printf("Numeros de pontos turisticos: %d", Pontosturisticos);
+
+     
+     
+     
+
 }
