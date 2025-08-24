@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
      printf(" Desafio cartas super trunfo!\n ");
+     printf("NOVO commit\n");
      printf("Carta 01\n" );
 
      char Estado[20] = "Bahia";
