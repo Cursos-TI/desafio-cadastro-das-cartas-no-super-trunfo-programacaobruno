@@ -10,7 +10,7 @@ int main(){
     int População = 9233656;
     float Área =148.886;
     float PIB = 213.601;
-    int Pontosturisticos = 15;
+    int Pontosturisticos = 14;
     
     printf("Estado:\n ");
     scanf("%s", estado);
