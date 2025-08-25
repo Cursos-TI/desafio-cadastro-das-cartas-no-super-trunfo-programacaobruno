@@ -39,18 +39,6 @@ int main(){
     printf("Numeros de pontos turisticos: %d", Pontosturisticos);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return 0;
 
 }
