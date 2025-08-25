@@ -6,11 +6,11 @@ int main(){
 
      char Estado[20] = "Bahia";
      char Código[20] = "A01";
-     char Nomedacidade[20] = "salvador";
+     char Nomedacidade[20] = "Salvador";
      int População = 14850511;
      float Área = 567.295;
      float PIB = 352.618;
-     int Pontosturisticos =13;
+     int Pontosturisticos = 13;
 
      printf("Estado:\n ");
      scanf("%s", Estado);
@@ -38,9 +38,8 @@ int main(){
      printf("Area total: %.3f - PIB: %.3f\n", Área, PIB);
      printf("Numeros de pontos turisticos: %d\n", Pontosturisticos);
 
-     
-     
-     
-     
+     return 0;
 
+
+     
 }
