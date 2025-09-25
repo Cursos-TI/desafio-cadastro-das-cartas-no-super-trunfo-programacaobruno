@@ -16,7 +16,7 @@
           int Pontosturisticos_1 = 13;
           float densidadepopulacional_1 = (float) População_1 / Área_1;
           float PIBpercapita_1 = (float) PIB_1 / População_1;
-          float SuperPoder_1;
+          float SuperPoder_1 = (float) População_1 + Área_1 + PIB_1 + Pontosturisticos_1 + densidadepopulacional_1 + PIBpercapita_1;
 
           char Estado_2[20] = "Ceará";
           char Código_2[20] = "B02";
@@ -27,7 +27,7 @@
           int Pontosturisticos_2 = 14;
           float densidadepopulacional_2 = (float) População_2 / Área_2;
           float PIBpercapita_2 = (float) PIB_2 / População_2;
-          float SuperPoder_2;
+          float SuperPoder_2 = (float) População_2 + Área_2 + PIB_2 + Pontosturisticos_2 + densidadepopulacional_2 + PIBpercapita_2;
 
           printf("Estado:\n ");
           scanf("%s", Estado_1);
@@ -92,7 +92,6 @@
           printf("Numeros de pontos turisticos: %d\n", Pontosturisticos_1);
           printf("Densidade populacional: %.3fhab/km2\n", densidadepopulacional_1);
           printf("PIB per capita: %freais\n", PIBpercapita_1);
-          SuperPoder_1 =(float) População_1 + Área_1 + PIB_1 + Pontosturisticos_1 + densidadepopulacional_1 + PIBpercapita_1;
           printf("SUPER PODER DA CARTA 1 É: %f\n\n", SuperPoder_1);
       
 
@@ -104,7 +103,6 @@
           printf("Numeros de pontos turisticos: %d\n", Pontosturisticos_2);
           printf("Densidade populacional: %.3fhab/km2\n", densidadepopulacional_2);
           printf("PIB per capita: %freais\n", PIBpercapita_2);
-          SuperPoder_2 =(float) População_2 + Área_2 + PIB_2 + Pontosturisticos_2 + densidadepopulacional_2 + PIBpercapita_2;
           printf("SUPER PODER DA CARTA 2 É: %f\n\n", SuperPoder_2);
 
           printf("*******Comparação das cartas*******\n ");
